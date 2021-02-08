@@ -1,17 +1,37 @@
+html{
+    overflow-x: hidden;
+    /* so the user can't scroll to the left or right off the page*/
+}
 /*navbar*/
+/*blue nav with white text*/
 
 /*end of navbar*/
 
 /*section 1*/
+/*white*/
+
 /*end of section 1*/
 
 /*section 2*/
+/*blue*/
+
 /*end of section 2*/
 
+
 /*section 3*/
+
+/*white*/
+
 /*end of section 3*/
 
 /*section 4*/
+
+/*blue*/
+.leadership-section{
+    background-color: #069;
+    color: #ffffff;
+}
+
 /*end of section 4*/
 
 /*section 5*/
