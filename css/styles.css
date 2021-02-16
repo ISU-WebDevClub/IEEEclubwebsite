@@ -32,6 +32,13 @@ html{
     color: #ffffff;
 }
 
+.lead{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
 /*end of section 4*/
 
 /*section 5*/
