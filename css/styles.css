@@ -8,10 +8,14 @@ html{
 /*end of navbar*/
 
 /*section 1*/
+.sec1-row {
+  height: 400px;
+}
+
 #sec1-img {
-  width: 200;
-  max-width: 200;
-  height: 100%;
+    width: 200;
+    max-width: 200;
+    height: 55%;
 }
 /*white*/
 
