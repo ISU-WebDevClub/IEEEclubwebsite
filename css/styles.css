@@ -1,0 +1,58 @@
+html{
+    overflow-x: hidden;
+    /* so the user can't scroll to the left or right off the page*/
+}
+/*navbar*/
+/*blue nav with white text*/
+
+/*end of navbar*/
+
+/*section 1*/
+/*white*/
+
+/*end of section 1*/
+
+/*section 2*/
+/*blue*/
+
+/*end of section 2*/
+
+
+/*section 3*/
+
+/*white*/
+
+/*end of section 3*/
+
+/*section 4*/
+
+/*blue*/
+.leadership-section{
+    background-color: #069;
+    color: #ffffff;
+}
+
+.lead{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*end of section 4*/
+
+/*section 5*/
+.banner{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.cooperation-section{
+    background-color: #069;
+    color: #ffffff;
+}
+/*end of section 5*/
+
+/*section 6/footer*/
+/*end of section 6/footer*/
