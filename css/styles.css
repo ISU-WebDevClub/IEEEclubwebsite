@@ -1,21 +1,48 @@
+html{
+    overflow-x: hidden;
+    /* so the user can't scroll to the left or right off the page*/
+}
 /*navbar*/
+/*blue nav with white text*/
 
 /*end of navbar*/
 
 /*section 1*/
+/*white*/
+
 /*end of section 1*/
 
 /*section 2*/
-.container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+.leadership-section{
+    background-color: #069;
+    color: #ffffff;
 }
+/*blue*/
+
 /*end of section 2*/
 
+
 /*section 3*/
+
+/*white*/
+
 /*end of section 3*/
 
 /*section 4*/
+
+/*blue*/
+.leadership-section{
+    background-color: #069;
+    color: #ffffff;
+}
+
+.lead{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
 /*end of section 4*/
 
 /*section 5*/
