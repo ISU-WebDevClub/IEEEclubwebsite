@@ -80,3 +80,21 @@ html{
 
 /*section 6/footer*/
 /*end of section 6/footer*/
+
+/*end of section 4*/
+
+/*section 5*/
+.banner{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.cooperation-section{
+    background-color: #069;
+    color: #ffffff;
+}
+/*end of section 5*/
+
+/*section 6/footer*/
+/*end of section 6/footer*/
