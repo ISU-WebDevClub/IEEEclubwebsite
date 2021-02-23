@@ -8,6 +8,15 @@ html{
 /*end of navbar*/
 
 /*section 1*/
+.sec1-row {
+  height: 400px;
+}
+
+#sec1-img {
+    width: 200;
+    max-width: 200;
+    height: 55%;
+}
 /*white*/
 
 /*end of section 1*/
@@ -54,12 +63,14 @@ html{
     width: 20%;
     height: auto;
 }
+
 .lead2{
     border-radius: 50%;
     display: block;
     margin: 0 auto;
     width: 30%;
     height: auto;
+    width: 50%;
 }
 
 /*end of section 4*/
