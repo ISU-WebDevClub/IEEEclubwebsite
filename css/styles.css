@@ -8,17 +8,45 @@ html{
 /*end of navbar*/
 
 /*section 1*/
+.sec1-row {
+  height: 400px;
+}
+
+#sec1-img {
+    width: 200;
+    max-width: 200;
+    height: 55%;
+}
 /*white*/
 
 /*end of section 1*/
 
 /*section 2*/
+.leadership-section{
+    background-color: #069;
+    color: #ffffff;
+}
 /*blue*/
 
 /*end of section 2*/
 
 
 /*section 3*/
+
+.section-3 {
+    background-color: #069;
+    text-align: justify;
+    /*font-size: 20px;
+    */
+}
+.section-3-graphic {
+    width: 80%;
+    margin: 20px;
+}
+.section-3-middle-column {
+    width: 60%;
+
+}
 
 /*white*/
 
@@ -36,8 +64,25 @@ html{
     border-radius: 50%;
     display: block;
     margin: 0 auto;
-    width: 50%;
+    width: 20%;
+    height: auto;
 }
+
+.lead2{
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+}
+
+/*end of section 4*/
+
+/*section 5*/
+/*end of section 5*/
+
+/*section 6/footer*/
+/*end of section 6/footer*/
 
 /*end of section 4*/
 
@@ -49,8 +94,8 @@ html{
 }
 
 .cooperation-section{
-    background-color: #069;
-    color: #ffffff;
+    background-color: #fff;
+    color: #000;
 }
 /*end of section 5*/
 
