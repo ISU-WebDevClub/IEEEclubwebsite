@@ -35,13 +35,17 @@ html{
 
 .section-3 {
     background-color: #069;
-    text-align: center;
+    text-align: justify;
     /*font-size: 20px;
     */
 }
 .section-3-graphic {
-    height: 80%;
     width: 80%;
+    margin: 20px;
+}
+.section-3-middle-column {
+    width: 60%;
+
 }
 
 /*white*/
