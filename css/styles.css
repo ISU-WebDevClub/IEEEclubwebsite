@@ -78,13 +78,6 @@ html{
 
 /*end of section 4*/
 
-/*section 5*/
-/*end of section 5*/
-
-/*section 6/footer*/
-/*end of section 6/footer*/
-
-/*end of section 4*/
 
 /*section 5*/
 .banner{
@@ -100,4 +93,8 @@ html{
 /*end of section 5*/
 
 /*section 6/footer*/
+footer{
+    background-color: #069;
+    color: #fff;
+}
 /*end of section 6/footer*/
