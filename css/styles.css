@@ -141,17 +141,13 @@ html{
 
 .section-3 {
     background-color: #069;
-    text-align: justify;
+    text-align: center;
     /*font-size: 20px;
     */
 }
 .section-3-graphic {
+    height: 80%;
     width: 80%;
-    margin: 20px;
-}
-.section-3-middle-column {
-    width: 60%;
-
 }
 
 /*white*/
@@ -190,11 +186,24 @@ html{
     display: block;
     margin: 0 auto;
     width: 50%;
+    background-color: #069;
+}
+
+.critical-tinkers-img{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    background-color: #069;
 }
 
 .cooperation-section{
-    background-color: #fff;
-    color: #000;
+    background-color: #069;
+    color: #fff;
+}
+
+.section-5-body{
+    font-size: 16px;
 }
 /*end of section 5*/
 
