@@ -158,8 +158,8 @@ html{
 
 /*blue*/
 .leadership-section{
-    background-color: #069;
-    color: #ffffff;
+    background-color: #fff;
+    color: #000;
 }
 
 .lead{
@@ -186,15 +186,13 @@ html{
     display: block;
     margin: 0 auto;
     width: 50%;
-    background-color: #069;
 }
 
 .critical-tinkers-img{
     display: block;
-    margin: 0 auto;
-    width: 80%;
-    height: 80%;
-    background-color: #069;
+    margin: 5rem auto;
+    width: 60%;
+    height: auto;
 }
 
 .cooperation-section{
@@ -202,14 +200,14 @@ html{
     color: #fff;
 }
 
-.section-5-body{
-    font-size: 16px;
-}
 /*end of section 5*/
 
 /*section 6/footer*/
 footer{
-    background-color: #069;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
+}
+footer a{
+  color: #000;
 }
 /*end of section 6/footer*/
