@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -8,87 +8,91 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
     <!--custom css-->
     <link rel="stylesheet" href="./css/styles.css">
-    <title>IEEE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <title>ISUxIEEE</title>
 </head>
-<body id="home">
+<body id="home" >
 
-<!--navbar-->
-<nav>
-    <div class = "logo">
-        <h4>IEEE</h4>
-</div>
-    <ul class = "nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#section2">About</a></li>
-        <li><a href="#section-4">Leadership</a></li>
-        <li><a href="#section5">Partners</a></li>
-    </ul>
-    <div class = "burger">
-     <div class="line"></div>
-     <div class="line2"></div>
-     <div class="line3"></div>
-    
-     
-
-    </div>
+<nav class="sticky-top navbar-light ">
+  <a href="#" class="navbar-brand"><img src="img/ISUxIEEE.svg"></a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#home" style="color: white">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section2" style="color: white">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section-4" style="color: white">Leadership</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#section5" style="color: white">Partners</a>
+    </li>
+  </ul>
 </nav>
+
 
 <!--end of navbar-->
 
 <!--section 1-->
-<div class="container">
-  <div class="row sec1-row pt-5">
-      <div class="col-4 text-center">
-          <h1>ISU IEEE Club</h1>
-          <h3>Subtext</h3>
-      </div>
-      <div class="col-8 text-center pt-5">
-          <img src="img/logo-ieee.svg" id="sec1-img">
-      </div>
+<div class="container-fluid px-0">
+  <div class = "row">
+    <div class="col-md-12">
+     <img class = "img-fluid" src="./img/testBG.jpg" alt="placeholder 960" />
+    </div>
   </div>
+
+
 </div>
 <!--end of section 1-->
 
 <!--section 2-->
-<section id="section2" class="leadership-section">
-    <div class="row" style="padding-top:40px; text-align:center;">
-        <div class="col-sm-6 col-md-6" style="padding-left: 55px; padding-right: 25px;">
-            <h1>Our Mission</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+<section id="section2" class="leadership-section h-100" >
+  <div class = "container h-100" >
+  <div>
+    <h1 class="text-center mt-4 mb-4">About Us</h1>
+  </div>
+  <div class = "text-center" >
+    <img class = "section-3-graphic" src="img/logo-ieee.svg">
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4 px-4 mb-4">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-center">What is IEEE?</h5>
+          <p class="card-text">The Institute of Electrical and Electronics Engineers (IEEE) is the largest technical professional society. IEEE has more than 400,000 members all around the world.</p>
         </div>
-        <div class="col-sm-6 col-md-6" style="padding-top:40px;padding-right:55px;padding-left:25px;">
-            <h3>Placeholder</h3>
-        </div>
+      </div>
     </div>
+    <div class="col">
+      <div class="card" style="">
+        <div class="card-body">
+          <h5 class="card-title text-center">Goals</h5>
+          <p class="card-text">To promote the extracurricular experience and further the academic opportunity of the ECE student body at Iowa State University. This is done with the aim of fostering technological innovation and excellence for the benefit of humanity.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title text-center">History</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </section>
 <!--end of section 2-->
 
-<!--section 3-->
-<div class="section-3">
-    <div class="container">
-       <div class="row">
-            <div class="col">
-            </div>
-            <div class="col-xl-8" class="section-3-middle-column" style="background-color: #ffffff;">
-                <img src="img/logo-ieee.svg" class="section-3-graphic">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit at cum a possimus quae asperiores unde quas aspernatur aliquid, facere itaque molestiae quisquam, provident commodi ut tenetur! Expedita iusto autem tempore, unde quos deserunt optio vitae totam nobis excepturi, voluptatibus doloremque, officia corrupti aut in quis eaque delectus sed. Sed, quas distinctio aspernatur, sequi consequuntur placeat, facere veritatis unde nisi odit corporis quidem et exercitationem aut? Corporis accusamus nulla quis fugiat explicabo. Placeat, voluptatem dicta consequuntur, vitae aliquam adipisci odio veritatis quidem temporibus quas magnam porro animi in similique molestiae sunt minima deleniti reprehenderit aspernatur quasi doloremque debitis eius quibusdam! Autem harum quaerat, nobis quod velit iste nulla? Suscipit vitae nobis perspiciatis illum asperiores distinctio alias facilis tempore! Magnam ipsum minus expedita at cumque quos adipisci, odio, dicta fugiat aspernatur nisi voluptate velit ea. Praesentium neque earum quo quaerat voluptatem, eos ullam illo recusandae quod est saepe pariatur quidem atque magnam consequuntur hic soluta!
-                </p>
-            </div>
-            <div class="col">
-            </div>
-       </div>
-   </div>
-</div>
-<!--end of section 3-->
-
 <!--section 4-->
 <section class="leadership-section" id="section-4">
-    <div class="container-fluid">
+    <div class="container h-100">
         <div class="row">
             <div class="h1 text-center">Executive Members</div>
             <!--circles go here-->
@@ -97,27 +101,27 @@
             <div class="col-sm-12 col-md-6">
                 <img src="./img/images.png" alt="Name Here" class="lead">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">President</h6>
             </div>
             <div class="col-sm-12 col-md-6">
                 <img src="./img/images.png" alt="Name Here" class="lead">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">Vice President</h6>
             </div>
             <div class="col-sm-12 col-md-4">
                 <img src="./img/images.png" alt="Name Here" class="lead2">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">Treasurer</h6>
             </div>
             <div class="col-sm-12 col-md-4">
                 <img src="./img/images.png" alt="Name Here" class="lead2">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">Secretary</h6>
             </div>
             <div class="col-sm-12 col-md-4">
                 <img src="./img/images.png" alt="Name Here" class="lead2">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">Media Secretary</h6>
             </div>
         </div>
     </div>
@@ -126,26 +130,26 @@
             <div class="h1 text-center">Curriculum Chairs</div>
             <!--circles go here-->
         </div>
-        <div class="row">
+        <div class="row mt-4 mb-4">
             <div class="col-sm-12 col-md-3">
                 <img src="./img/images.png" alt="Name Here" class="lead2">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">CprE Chair</h6>
             </div>
             <div class="col-sm-12 col-md-3">
                 <img src="./img/images.png" alt="Name Here" class="lead2">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">CybE Chair</h6>
             </div>
             <div class="col-sm-12 col-md-3">
                 <img src="./img/images.png" alt="Name Here" class="lead2">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">EE Chair</h6>
             </div>
             <div class="col-sm-12 col-md-3">
                 <img src="./img/images.png" alt="Name Here" class="lead2">
                 <h6 class="text-center">Name</h6>
-                <h6 class="text-center">Postion</h6>
+                <h6 class="text-center">SE Chair</h6>
             </div>
         </div>
     </div>
@@ -153,26 +157,20 @@
 <!--end of section 4-->
 
 <!--section 5-->
-<section class="cooperation-section" id="section5">
+<section class="leadership-section" id="section5">
     <div class="container-fluid">
         <div class="row">
             <div class="h1 text-center">Interclub Cooperation</div>
-             
+
         </div>
-        <div class="row">
+        <div class="row mt-4 mb-4">
             <div class="col-sm-12 col-md-6">
-                <h3 class="text-center">IEEE-Eta Kappa Nu: Nu Chapter</h3>
-                <img src ="img/EtaKappaNuInverted.png" alt="" class="banner">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magnam quibusdam facere, odio dignissimos at amet commodi eveniet tenetur veritatis?
-                    </p>
+                <h3 class="text-center">IEEE-Eta Kappa Nu: ISU Chapter</h3>
+                <img src ="img/HKN.png" alt="" class="banner">
             </div>
             <div class="col-sm-12 col-md-6">
                 <h3 class="text-center">Critical Tinkers</h3>
-                <img src ="img/CriticalTinkersLogo.png" alt="" class="critical-tinkers-img" >
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti minima autem illum culpa distinctio repellendus dolorum, incidunt ad voluptates at?
-                </p>
+                <img src ="img/ct.png" alt="" class="critical-tinkers-img" >
             </div>
         </div>
     </div>
@@ -183,63 +181,42 @@
 <!-- Footer -->
 <footer class="text-center text-lg-start">
     <div class="container p-4">
-     
+
       <div class="row">
-      
+
         <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
-          <h5 class="text-uppercase">IEEE</h5>
-  
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-            voluptatem veniam, est atque cumque eum delectus sint!
-          </p>
+          <img style="width:16vh; height:16vh;" src ="img/FooterLogo.svg">
         </div>
-       
+
         <div class="col-lg-3 col-md-3 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Lorem Ipsum</h5>
-  
-          <ul class="list-unstyled mb-0">
-            <li>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate pariatur id consequuntur aut excepturi ut doloremque consequatur, repellendus laudantium distinctio.
-              </p>
-            </li>
-            
-          </ul>
         </div>
-    
-  
-        
         <div class="col-lg-3 col-md-3 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-0">Lorem Ipsum</h5>
-  
-          <ul class="list-unstyled">
-            <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci itaque laudantium dicta eos distinctio? Laudantium odio saepe voluptatem perspiciatis. Rem!</p>
-            </li>
-          </ul>
         </div>
-        
+
         <div class="col-lg-3 col-md-3 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Lorem Ipsum</h5>
-    
+            <h5 class="text-uppercase">Contact</h5>
+
             <ul class="list-unstyled mb-0">
               <li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate pariatur id consequuntur aut excepturi ut doloremque consequatur, repellendus laudantium distinctio.
-                </p>
+                <p> ieeepres@iastate.edu </p>
+                <p>   © 2021 Copyright:<p></p>
+                  <a href="https://www.stuorg.iastate.edu/265" target="_blank">IEEE @ ISU</a> |
+                  <a href="http://webdev.stuorg.iastate.edu" target="_blank">ISU Web Dev Club</a> </p>
               </li>
-              
+
             </ul>
           </div>
       </div>
-      
+
     </div>
-    <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.2);">
+    <div class="text-center p-3" style="background-color: #069;">
       © 2021 Copyright:
-      <a href="http://webdev.stuorg.iastate.edu" target="_blank">Iowa State University Web Development Club</a>
+      <a href="https://www.stuorg.iastate.edu/265" target="_blank">IEEE @ ISU</a> |
+      <a href="http://webdev.stuorg.iastate.edu" target="_blank">ISU Web Dev Club</a>
     </div>
-   
+
   </footer>
-  
+
 <!--end of section 6/footer-->
 
 
