@@ -1,4 +1,6 @@
-//animate for bubbles and other things
+//animate for bubbles and other things"
+
+
 const navSlide = () => {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
