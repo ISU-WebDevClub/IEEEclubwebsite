@@ -13,7 +13,7 @@ html{
         justify-content: space-around ;
         align-items: center;
         min-height: 8vh;
-        background-color: #069;    
+        background-color: #069;
         font-family: 'Poppins', sans-serif;
     }
     .logo{
@@ -26,35 +26,35 @@ html{
         display: flex;
         background-color: none;
         justify-content: space-around;
-        width: 30%; 
+        width: 30%;
     }
     .nav-links li{
         list-style: none;
     }
-    
+
     .nav-links a{
         color: rgb(226, 226, 226);
         text-decoration: none;
         letter-spacing: 3px;
         font-weight: bold;
         font-size: 14px;
-    
+
     }
-    
+
     .burger{
         display: none;
         cursor: pointer;
     }
-    
-    
+
+
     .burger div{
     width: 25px;
     height: 3px;
     background-color: rgb(226, 226, 226);
     margin: 5px;
-    
-    
-    
+
+
+
     }
     @media screen and (max-width:1024px){
         .nav-links{
@@ -70,7 +70,7 @@ html{
           right: 0px;
           height: 92vh;
           top: 8vh;
-          background-color: #069;   
+          background-color: #069;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -105,16 +105,16 @@ html{
       }
       .toggle .line3{
           transform: rotate(45deg translate(-5px, -6px));
-    
+
     }
-    
+
     }
-    
+
 
 /*end of navbar*/
 
 /*section 1*/
-.sec1-row {
+/* .sec1-row {
   height: 400px;
 }
 
@@ -122,7 +122,7 @@ html{
     width: 200;
     max-width: 200;
     height: 55%;
-}
+} */
 /*white*/
 
 /*end of section 1*/
